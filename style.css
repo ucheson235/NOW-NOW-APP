@@ -52,7 +52,7 @@
   .nav-links a {
     color: black;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   #Personal{
@@ -67,7 +67,7 @@
    #card-btn,
   .div-btn button{
     padding: 10px 20px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     background-color:rgb(247, 139, 0);
     color: white;
     border: none;
@@ -94,13 +94,13 @@
     }
 
     .hero-text h1{
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: bold;
         margin-bottom: 20px;
     }
 
     .hero-text p{
-        font-size: 1.5rem;
+        font-size: 1rem;
         margin-bottom: 20px;
     }
 
@@ -114,6 +114,14 @@
 
    .slider{
     display: none;
+   }
+
+   .license-img {
+    width: 100px;
+   }
+
+   .license-img img {
+    width: 100%;
    }
 
    /* <!-- ----------------------------------------------- -->
@@ -136,7 +144,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        gap: 20px;
+        gap: 10px;
         margin: 20px 0;
     }
     
@@ -144,8 +152,8 @@
         background-color: #f8f8f8;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        width: 300px;
-        height: 400px;
+        width: 200px;
+        height: 300px;
         transition: transform 0.3s;
         padding: 1rem;
         background-color:#333;
@@ -175,7 +183,7 @@
     }
     
     .card-text h2 {
-        font-size: 1.5rem;
+        font-size: 1rem;
         margin-bottom: 10px;
         color: white;
     }
@@ -193,7 +201,7 @@
 
     .mid-text h2{
         text-align: center;
-        font-size: 3rem;
+        font-size: 2rem;
 
     }
 
@@ -278,7 +286,7 @@
    }
 
    .atm-text h2{
-     font-size: 3rem;
+     font-size: 2rem;
      margin-top: 100px;
      margin-bottom: 30px;
      color: white;
@@ -286,16 +294,24 @@
 
    }
    .atm-text p{
-     font-size: 1.5rem;
+     font-size: 1rem;
      margin-bottom: 30px;
      color: white;
      
 
    }
 
+   .atm-img{
+    width: 300px;
+   }
+
+   .atm-img img{
+    width: 100%;
+   }
+
    .atm-text button{
      padding: 10px 20px;
-     font-size: 1.2rem;
+     font-size: 1rem;
      border-radius: 5px;
      border: none;
      color: rgb(247, 139, 0);
@@ -316,17 +332,17 @@
    .input-div h2{
      margin-top: 50px;
      margin-bottom: 30px;
-     font-size: 2.5rem;
+     font-size: 2rem;
    }
     
    .input-div h4{
      margin-bottom: 30px;
-     font-size: 1.5rem;
+     font-size: 1rem;
    }
 
    .input-div input{
     width: 30%;
-    padding: 20px;
+    padding: 15px;
     font-size: 1.5rem;
     border: none;
     outline: none;
@@ -334,8 +350,8 @@
   }
 
   .input-div button{
-    padding: 20px 30px;
-    font-size: 1.5rem;
+    padding: 15px 30px;
+    font-size: 1rem;
     border: none;
     background-color:rgb(247, 139, 0);
     color: white;
@@ -353,7 +369,7 @@
     
   }
   .community-text h2{
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     margin-bottom: 30px;
     color: black;
@@ -367,7 +383,7 @@
   }
 
   .community-img h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 50px;
     text-align: center;
     color: black;
@@ -480,6 +496,7 @@
 
     .hero{
         display: block;
+        padding: 3rem;
     }
 
     .hero-text{
@@ -549,7 +566,7 @@
       }
 
       .mid-text h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
 
     }
 
