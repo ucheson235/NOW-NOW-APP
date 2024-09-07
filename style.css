@@ -669,7 +669,8 @@
   }
 
   .main-card{
-    padding: 1rem;
+    padding: 0rem;
+    text-align: none;
   }
 
 }
